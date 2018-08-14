@@ -1,5 +1,6 @@
 FROM openjdk:8-jre-alpine
 LABEL maintainer="Igor Ivaniuk <i.ivanyuk@gmail.com>"
+LABEL GitHub="https://github.com/Igor-Ivaniuk/soapui-mock-docker"
 
 #  Version
 ENV SOAPUI_VERSION  5.4.0
