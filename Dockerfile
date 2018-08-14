@@ -17,9 +17,7 @@ RUN chmod +x /opt/entrypoint.sh
 WORKDIR /opt
 
 # Set environment
-# ENV PATH ${PATH}:/opt/SoapUI/bin
 ENV SOAPUI_PROJECT /opt/project.xml
-ENV MOCK_SERVICE ""
 
 EXPOSE 8089
 
